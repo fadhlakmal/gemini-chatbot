@@ -1,38 +1,40 @@
-# create-svelte
+# Gemini Chat App (WIP)
+A chatbot web app that utilizes Google's Gemini multimodal large language model.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+## Demo
+Explore the live demo [Here!](https://gemini-chatbot-two.vercel.app/)
+![image](https://github.com/fadhlakmal/gemini-chatbot/assets/120249194/b266eafd-7a35-4108-ba01-1ffcf0f8866f)
 
-## Creating a project
+## Tools
+- SvelteKit
+- Skeleton UI, Tailwind CSS
+- Firebase, Firestore
+- Google Gemini
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Run Locally
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+1. **Installation:** Clone this repository to your local machine and install the necessary dependencies:
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+   ```bash
+   git clone https://github.com/fadhlakmal/gemini-chatbot.git
+   cd gemini-chatbot
+   npm install
 
-## Developing
+   ```
+2. **Run and Explore the App:** Start the SvelteKit development server to run the app locally:
+   ```bash
+   npm run dev -- --open
+   ```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Configuration
+### Firebase
+Update the firebaseConfig.js file with your own Firebase project details.
 
-```bash
-npm run dev
+## Usage
+Feel free to modify and expand upon this project to suit your specific needs.
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## Contributing
+Contributions to this project are welcome! If you have ideas for improvements or new features, feel free to reach out through GitHub issues or by [email](mailto:akmal.madany1@gmail.com).
 
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## License
+This project is licensed under the MIT License.
